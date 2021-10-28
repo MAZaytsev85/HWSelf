@@ -5,12 +5,11 @@ import java.util.Scanner;
 public class Task3 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        Scanner people = new Scanner(System.in);
         System.out.println("Введите количество учеников");
         int count3 = 0;
         int count4 = 0;
         int count5 = 0;
-        int count_people = people.nextInt();
+        int count_people = in.nextInt();
         int i = 1;
     while (i <= count_people) {
         i++;
